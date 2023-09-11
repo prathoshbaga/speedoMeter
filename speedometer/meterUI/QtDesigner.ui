@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Speedometer</class>
+    <widget class="QMainWindow" name="Speedometer">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>400</height>
+            </rect>
+        </property>
+        <widget class="QDial" name="dial">
+            <property name="geometry">
+                <rect>
+                    <x>50</x>
+                    <y>50</y>
+                    <width>300</width>
+                    <height>300</height>
+                </rect>
+            </property>
+            <property name="minimum">
+                <number>-7</number>
+            </property>
+            <property name="maximum">
+                <number>7</number>
+            </property>
+            <property name="singleStep">
+                <number>1</number>
+            </property>
+        </widget>
+    </widget>
+</ui>

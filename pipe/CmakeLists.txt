@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16.3)
+
+project(pipe)
+add_library(pipe STATIC pipe.cpp)
+
+target_include_directories(pipe PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
